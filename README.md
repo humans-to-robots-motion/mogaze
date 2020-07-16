@@ -1,3 +1,23 @@
+# A Human-fullbody Motion Dataset with Gaze
+
+Existing datasets of full-body motion rarely include 
+1) long sequences of manipulation tasks, 2) the 3D model of the workspace geometry,
+and 3) eye-gaze, which are all important when a
+robot needs to predict the movements of humans in close proximity.
+Hence, in this novel dataset of full-body
+motion for everyday manipulation task,
+which includes the above.
+
+
+The motion data was captured using a traditional
+motion capture system based on reflective markers.
+We additionally captured eye-gaze using a wearable pupil-tracking device. 
+As we show in experiments, the dataset can be used for the design and evaluation
+of full-body motion prediction algorithms.
+Furthermore, our experiments shows eye-gaze as a powerful predictor of human intent.
+The dataset includes 180 min of motion capture data with
+1627 pick and place actions being performed.
+
 # Data
 The data is available [here](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/).
 You can use [this bash script](https://github.com/PhilippJKratzer/mocap-mlr-datasets/blob/master/mogaze.sh) to download all the files using wget.

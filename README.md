@@ -26,7 +26,7 @@ When using this dataset please mention the following paper in your work
 @article{kratzer2019prediction,
   title={Prediction of Human Full-Body Movements with Motion Optimization and Recurrent Neural Networks},
   author={Kratzer, Philipp and Toussaint, Marc and Mainprice, Jim},
-  journal={Robotics and Automation (ICRA), 2011 IEEE International Conference on},
+  journal={Robotics and Automation (ICRA), IEEE International Conference on},
   year={2020}
 }
 ```

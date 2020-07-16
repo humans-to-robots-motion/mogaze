@@ -1,7 +1,7 @@
 Existing datasets of full-body motion rarely include 
 1) long sequences of manipulation tasks
 2) the 3D model of the workspace geometry, and 
-3) eye-gaze
+3) eye-gaze,
 which are all important when a
 robot needs to predict the movements of humans in close proximity.
 Hence, this novel dataset of full-body

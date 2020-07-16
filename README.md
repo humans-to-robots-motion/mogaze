@@ -14,11 +14,23 @@ addresses these shortcomings by including the above.
 The motion data was captured using a traditional
 motion capture system based on reflective markers.
 We additionally captured eye-gaze using a wearable pupil-tracking device. 
-As we show in experiments, the dataset can be used for the design and evaluation
+The dataset can be used for the design and evaluation
 of full-body motion prediction algorithms.
 Furthermore, our experiments shows eye-gaze as a powerful predictor of human intent.
 The dataset includes 180 min of motion capture data with
 1627 pick and place actions being performed.
+
+# Citation
+
+When using this dataset please mention the following paper in your work:
+```
+@article{kratzer2019prediction,
+  title={Prediction of Human Full-Body Movements with Motion Optimization and Recurrent Neural Networks},
+  author={Kratzer, Philipp and Toussaint, Marc and Mainprice, Jim},
+  journal={arXiv preprint arXiv:1910.01843},
+  year={2019}
+}
+```
 
 # Data
 The data is available [here](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/).

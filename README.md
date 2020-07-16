@@ -1,5 +1,5 @@
 Existing datasets of full-body motion rarely include 
-1) long sequences of manipulation tasks
+1) long sequences of manipulation tasks,
 2) the 3D model of the workspace geometry, and 
 3) eye-gaze,
 which are all important when a
@@ -19,7 +19,7 @@ The dataset includes 180 min of motion capture data with
 
 # Citation
 
-When using this dataset please mention the following paper in your work:
+When using this dataset please mention the following paper in your work
 ```
 @article{kratzer2019prediction,
   title={Prediction of Human Full-Body Movements with Motion Optimization and Recurrent Neural Networks},

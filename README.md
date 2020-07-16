@@ -7,10 +7,8 @@ Existing datasets of full-body motion rarely include
 
 which are all important when a
 robot needs to predict the movements of humans in close proximity.
-Hence, in this novel dataset of full-body
-motion for everyday manipulation task,
-which includes the above.
-
+Hence, this novel dataset of full-body
+motion for everyday manipulation task includes the above.
 
 The motion data was captured using a traditional
 motion capture system based on reflective markers.

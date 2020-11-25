@@ -21,10 +21,10 @@ The dataset includes 180 min of motion capture data with
 
 When using this dataset please mention the following paper in your work
 ```
-@article{kratzer2020prediction,
-  title={Prediction of Human Full-Body Movements with Motion Optimization and Recurrent Neural Networks},
-  author={Kratzer, Philipp and Toussaint, Marc and Mainprice, Jim},
-  journal={Robotics and Automation (ICRA), IEEE International Conference on},
+@article{kratzer2020mogaze,
+  title={MoGaze: A Dataset of Full-Body Motions that Includes Workspace Geometry and Eye-Gaze},
+  author={Kratzer, Philipp and Bihlmaier, Simon and Balachandra Midlagajni, Niteesh and Prakash, Rohit and Toussaint, Marc and Mainprice, Jim},
+  journal={IEEE Robotics and Automation Letters (RAL)},
   year={2020}
 }
 ```

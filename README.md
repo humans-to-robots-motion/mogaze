@@ -1,14 +1,12 @@
 # Summary
 
-Existing datasets of full-body motion rarely include 
-1) long sequences of manipulation tasks,
-2) the 3D model of the workspace geometry, and 
-3) eye-gaze,
-which are all important when a
-robot needs to predict the movements of humans in close proximity.
-Hence, this novel dataset of full-body
-motion for everyday manipulation task 
-addresses these shortcomings by including the above.
+This dataset captures long sequences of
+full-body everyday manipulation tasks, with eye-gaze.
+
+![sample](https://raw.githubusercontent.com/humans-to-robots-motion/mogaze/master/images/im2.png)
+
+A detailed description can be found on 
+[arxiv](https://arxiv.org/abs/2011.11552).
 
 The motion data was captured using a traditional
 motion capture system based on reflective markers.
@@ -42,5 +40,3 @@ Here is an example command on how to play participant 1 first file:
 ```
 python3 examples/playback/play_traj.py mogaze/p1_1_human_data.hdf5 --gaze mogaze/p1_1_gaze_data.hdf5 --obj mogaze/p1_1_object_data.hdf5 --segfile mogaze/p1_1_segmentations.hdf5 --scene mogaze/scene.xml
 ```
-
-![sample](https://raw.githubusercontent.com/humans-to-robots-motion/mogaze/master/images/im2.png)

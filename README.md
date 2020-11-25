@@ -1,5 +1,3 @@
-# Summary
-
 This dataset captures long sequences of
 full-body everyday manipulation tasks, with eye-gaze.
 

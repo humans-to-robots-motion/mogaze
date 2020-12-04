@@ -18,7 +18,7 @@ The dataset includes 180 min of motion capture data with
 # Citation
 
 When using this dataset please mention the following paper in your work
-```
+```bibtex
 @article{kratzer2020mogaze,
   title={MoGaze: A Dataset of Full-Body Motions that Includes Workspace Geometry and Eye-Gaze},
   author={Kratzer, Philipp and Bihlmaier, Simon and Balachandra Midlagajni, Niteesh and Prakash, Rohit and Toussaint, Marc and Mainprice, Jim},
@@ -29,12 +29,20 @@ When using this dataset please mention the following paper in your work
 
 # Data
 The data is available [here](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/).
-You can use [this bash script](https://github.com/PhilippJKratzer/mocap-mlr-datasets/blob/master/mogaze.sh) to download all the files using wget.
+A [single zip file](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip) with the data can be downloaded:
+```bash
+wget https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip
+```
 
-# Visualization
+
+# Getting Started
 You can playback the data using the [humoro](https://github.com/PhilippJKratzer/humoro) library.
 
-Here is an example command on how to play participant 1 first file:
-```
+Here is a tutorial on getting started with it: [Getting Started](getting_started)
+
+# Visualization
+
+To just visualize the datafiles, you can use the play\_traj.py example. For instance, the following command plays the first file of participant one:
+```python
 python3 examples/playback/play_traj.py mogaze/p1_1_human_data.hdf5 --gaze mogaze/p1_1_gaze_data.hdf5 --obj mogaze/p1_1_object_data.hdf5 --segfile mogaze/p1_1_segmentations.hdf5 --scene mogaze/scene.xml
 ```

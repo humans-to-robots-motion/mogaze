@@ -38,7 +38,7 @@ wget https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip
 # Getting Started
 You can playback the data using the [humoro](https://github.com/PhilippJKratzer/humoro) library.
 
-Here is a tutorial on getting started with it: [Getting Started](getting_started)
+Here is a tutorial on getting started with it: [Getting Started](https://humans-to-robots-motion.github.io/mogaze/getting_started)
 
 # Visualization
 

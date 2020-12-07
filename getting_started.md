@@ -6,15 +6,27 @@ There is an [ipython notebook version](https://github.com/PhilippJKratzer/humoro
 ## Installation
 The installation is tested on Ubuntu 18.04.
 
+The packages python3 and python3-pip need to be installed and upgraded (skip if python already is installed):
+```bash
+sudo apt install python3
+sudo apt install python3-pip
+python3 -m pip install --upgrade pip --user
+```
+
+For parts of the software qt5 is used, it can be installed using:
+```bash
+sudo apt install qt5-default
+```
+
 Clone the repository:
 ```bash
 git clone https://github.com/PhilippJKratzer/humoro.git
 ```
 
-The requirements can be installed using:
+The python requirements can be installed using:
 ```bash
 cd humoro
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt --user
 ```
     
 Finally, you can install humoro system-wide using:

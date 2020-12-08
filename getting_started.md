@@ -117,7 +117,7 @@ print(obj_trajs[0].data.shape)  # 7 dimensions: 3 pos + 4 quaternion rotation
 ```
 
 ## Loading Gaze
-The gaze can be loaded the following way. Note that only a trajectory of gaze direction points is loaded, the start point comes from the "goggles" object.
+The gaze can be loaded the following way. Only a trajectory of gaze direction points is loaded, the start point comes from the "goggles" object.
 ```python
 from humoro.gaze import load_gaze
 gaze_traj = load_gaze("mogaze/p1_1_gaze_data.hdf5")
@@ -125,6 +125,11 @@ pp.addPlaybackTrajGaze(gaze_traj)
 pp.play(duration=360, startframe=3000)
 ```
 
+If you want to use the raw gaze data, the direction points need to be rotated by the calibration rotation:
+```python
+print("calibration rotation quaternion:")
+print(gaze_traj.data_fixed['calibration'])
+```
 ## Segmentations
 The following loads a small Qt5 Application that displays a time axis with the segmentations. The file is segmented into when an object moves.
 

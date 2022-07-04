@@ -28,10 +28,9 @@ When using this dataset please mention the following paper in your work
 ```
 
 # Data
-The data is available [here](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/).
-A [single zip file](https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip) with the data can be downloaded:
+A [single zip file](https://pkratzer.net/mogaze.zip) with the data can be downloaded:
 ```bash
-wget https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip
+wget pkratzer.net/mogaze.zip
 ```
 
 

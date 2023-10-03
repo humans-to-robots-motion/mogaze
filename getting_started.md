@@ -34,10 +34,10 @@ Finally, you can install humoro system-wide using:
 sudo python3 setup.py install
 ```
 
-Download the dataset files:
+Download and extract the dataset files:
 ```bash
-wget https://ipvs.informatik.uni-stuttgart.de/mlr/philipp/mogaze/mogaze.zip
-unzip mogaze.zip
+wget https://github.com/humans-to-robots-motion/mogaze/raw/master/data/mogaze.7z
+7z x mogaze.7z
 ```
 
 ## Playback Human data

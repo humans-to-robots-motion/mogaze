@@ -28,10 +28,7 @@ When using this dataset please mention the following paper in your work
 ```
 
 # Data
-A [single zip file](https://pkratzer.net/mogaze.zip) with the data can be downloaded:
-```bash
-wget pkratzer.net/mogaze.zip
-```
+All data is available in the single file "data/mogaze.7z".
 
 
 # Getting Started
